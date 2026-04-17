@@ -4,32 +4,32 @@
     --text-color: black;
     --secondary-text: rgb(48, 48, 48); 
     --primary-color: grey; 
-    --accent-color: rgb(58, 58, 255); 
+    --accent-color: rgb(65, 116, 255); 
 }
 .darkmode{
     --base-color: rgb(40, 40, 40);
     --base-variant: rgba(47, 47, 47, 0.721);
     --text-color: rgb(255, 255, 255);
-    --secondary-text: rgb(255, 255, 255); 
+    --secondary-text: rgb(184, 241, 255); 
     --primary-color: rgb(37, 37, 37); 
-    --accent-color: rgb(58, 58, 255); 
+    --accent-color: rgb(95, 170, 255); 
 
 }
 .cta-button{
     background-color: var(--accent-color);
 }
 #theme-switch{
-    height: 50px;
-    width:50px;
-    padding:0;
+    height: 0px;
+    width:0px;
+    padding:20;
     border-radius:50%;
     background-color: var(--base-variant);
     display:flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 70px;
 }
 #theme-switch :last-child{
     display:none;
